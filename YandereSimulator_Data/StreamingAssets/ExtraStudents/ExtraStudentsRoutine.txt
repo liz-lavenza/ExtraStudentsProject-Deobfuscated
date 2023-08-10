@@ -1,0 +1,44 @@
+                 -== Use this file to create your student routine ==-                                 
+-=== (Use the pattern: StudentID, Location, Position or Rotation, X, Y, Z Value.) ===-
+                   (Except for: Follow, LovestruckTarget & Patrol.)                                       
+
+=======================
+List of options to use:
+
+EightiesSpot,
+Follow,
+Guard,
+Hangout,
+LovestruckTarget,
+LunchSpot,
+LunchWitnessPosition,
+Meeting,
+Mourn,
+Paint,
+Patrol,
+Perform,
+PhotoShoot,
+Random,
+SocialSeat,
+Spawn,
+SpawnWeek,
+Stairway,
+Sulk,
+Sunbathe,
+Wait,
+Week1Hangout,
+Week2Hangout
+
+=======================
+
+101:SpawnWeek:1
+101:Spawn:Pos:0:0:-100
+101:Spawn:Rot:0:0:0
+101:Hangout:Pos:-68.5:0:31.5
+101:Patrol:1:Pos:50.5:0:-44
+101:Patrol:1:Rot:0:90:0
+101:Patrol:2:Pos:-50.5:0:-44
+101:Patrol:2:Rot:0:-90:0
+101:LunchSpot:Position:1.1:4:-28.7
+101:LunchSpot:Rotation:0:-90:0
+101:LovestruckTarget:1

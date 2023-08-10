@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <ProjectGuid>{CBD510A5-6DBC-4C73-A9C6-F048B62CED54}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>ExtraStudentsProject</RootNamespace>
+    <AssemblyName>ExtraStudentsProject</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <FileAlignment>512</FileAlignment>
+    <TargetFramework>net472</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnableDefaultItems>False</EnableDefaultItems>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Include="ClassroomExpander.cs" />
+    <Compile Include="ExtraCreditJson.cs" />
+    <Compile Include="ExtraCreditsScript.cs" />
+    <Compile Include="ExtraDebugMenuScript.cs" />
+    <Compile Include="ExtraEndOfDay.cs" />
+    <Compile Include="ExtraHomePrisonerChan.cs" />
+    <Compile Include="ExtraIncineratorScript.cs" />
+    <Compile Include="ExtraJsonScript.cs" />
+    <Compile Include="ExtraMemorialSceneScript.cs" />
+    <Compile Include="ExtraOpinionsLearnedScript.cs" />
+    <Compile Include="ExtraShutterScript.cs" />
+    <Compile Include="ExtraStudentInfoMenuScript.cs" />
+    <Compile Include="ExtraStudentJson.cs" />
+    <Compile Include="ExtraStudentManagerScript.cs" />
+    <Compile Include="ExtraStudentsCreditsScript.cs" />
+    <Compile Include="ExtraStudentsFileManager.cs" />
+    <Compile Include="ExtraStudentsMainModule\ExtraStudentsDiscordManager.cs" />
+    <Compile Include="ExtraStudentsMainModule\ExtraStudentsHomeScript.cs" />
+    <Compile Include="ExtraStudentsMainModule\ExtraStudentsNewSlotsScript.cs" />
+    <Compile Include="ExtraStudentsModProject.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\ExtraDialogueWheelScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\ExtraPoliceScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\ExtraSaveLoadMenuScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\ExtraStudentInfoScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\ExtraTopicInterfaceScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\Misc_\ExtraPortalScript.cs" />
+    <Compile Include="ExtraStudentsOpenLibrary\RecreateStudentInfoScript.cs" />
+    <Compile Include="ExtraStudentsSettingsManager.cs" />
+    <Compile Include="ExtraTalkScript.cs" />
+    <Compile Include="ExtraTaskListScript.cs" />
+    <Compile Include="ExtraTopicJson.cs" />
+    <Compile Include="ExtraVoidGoddess.cs" />
+    <Compile Include="LockerCreatorScript.cs" />
+    <Compile Include="PrisonersInjector.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResolutionScreenInjectorScript.cs" />
+    <Compile Include="SceneInjector.cs" />
+    <Compile Include="SchoolScriptInjector.cs" />
+    <Compile Include="StudentSpawner.cs" />
+    <Compile Include="TitleScreenInjector.cs" />
+    <Compile Include="UselessCall.cs" />
+    <Compile Include="UselessThing.cs" />
+    <Compile Include="WelcomeSceneInjector.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AJWNSFNFt2c87VRQ5M.iLAZ8OZLtJVuIxqUnc" />
+    <EmbeddedResource Include="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources" />
+    <EmbeddedResource Include="g.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="AstarPathfindingProject">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\AstarPathfindingProject.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\..\YandereSimLauncher\YandereSimulator\YandereSimulator_Data\Managed\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

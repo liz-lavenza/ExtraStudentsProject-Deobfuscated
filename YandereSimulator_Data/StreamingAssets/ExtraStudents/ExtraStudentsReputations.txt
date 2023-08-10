@@ -1,0 +1,6 @@
+-== The function of this document is to allow the player ==-
+-==== to define the desired reputation for the student ====-
+
+    -=== (Use the pattern: StudentID, X, Y, Z Value.) ===-
+
+101:1:1:1

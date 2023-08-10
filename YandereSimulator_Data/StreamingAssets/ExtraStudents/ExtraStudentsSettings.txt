@@ -1,0 +1,8 @@
+-== The amount of extra students the game will load ==-
+ExtraStudents:1
+
+-== Update Student Hangout during Week 2 ==-
+Week2HangoutsUpdate:false
+
+-== Custom Rich Discord Presence Control ==-
+DiscordCustomRichPresence:true
